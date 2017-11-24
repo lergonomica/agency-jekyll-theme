@@ -4,6 +4,7 @@ color:
   secondary: A9BF89   
   secondary-dark: 333
   muted: 777
+  brown: 3C271A
 
 # Font Families
 font:
