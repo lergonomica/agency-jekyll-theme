@@ -214,9 +214,9 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
-    font-size: 16px;
+    font-size: 18px;
     color: #{{ site.data.template.color.brown }};
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 .navbar-default .nav li a:hover,
