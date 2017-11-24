@@ -15,9 +15,14 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Via Gian Leonardo Ceruso, 20 00147 Roma 
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+telephone:
+copyright:
+
+# API settings
+google_api_key: AIzaSyAHhpx4Act7Ue0BY5o6k0Hs763uiUJ3R2k
