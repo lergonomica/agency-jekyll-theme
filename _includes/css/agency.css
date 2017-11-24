@@ -672,7 +672,6 @@ section#contact {
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;*/
-    margin-top: -20px;
 }
 
 section#contact .section-heading {
