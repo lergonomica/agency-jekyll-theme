@@ -23,14 +23,25 @@ $headers = "From: noreply@yourdomain.com\n"; // This is the email address the ge
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;*/
-
+/*
  require('mailin.php');
     $mailin = new Mailin("https://api.sendinblue.com/v2.0","gwzYDVfpFqvAjkdZ");
-    $data = array( "to" => array("lergonomica1@gmail.com"=>"to whom!"),
+    $data = array( "to" => "lergonomica1@gmail.com",
         "from" => array($email_address, "from email!"),
         "subject" => "My subject",
         "html" => $message
    );
  
-    var_dump($mailin->send_email($data));
+    var_dump($mailin->send_email($data));*/
+include 'Mailin.php';
+$mailin = new Mailin('kikz.maglia@gmail.com', 'gwzYDVfpFqvAjkdZ');
+$mailin->
+addTo('kikz.maglia@gmail.com', 'Francesco Maria Maglia')->
+setFrom('kikz.maglia@gmail.com', 'Francesco Maria Maglia')->
+setReplyTo('kikz.maglia@gmail.com','Francesco Maria Maglia')->
+setSubject('Inserire l'oggetto qui')->
+setText('Buongiorno')->
+setHtml('<strong>Buongiorno</strong>');
+$res = $mailin->send();
+
 ?>
