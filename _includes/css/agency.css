@@ -214,7 +214,9 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
-    color: ##{{ site.data.template.color.brown }};
+    font-size: 16px;
+    color: #{{ site.data.template.color.brown }};
+    margin-top: 1px;
 }
 
 .navbar-default .nav li a:hover,
@@ -244,6 +246,7 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: padding .3s;
         transition: padding .3s;
         text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+        letter-spacing: 2px;
     }
 
     .navbar-default .navbar-brand {
@@ -259,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: {{ site.data.template.color.navbar }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
