@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #{{ site.data.template.color.navbar }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
