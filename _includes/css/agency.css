@@ -368,9 +368,7 @@ section h3.section-subheading {
 
 section#portfolio {
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/sketch.jpg');
-    background-position: center center;
-    background-repeat: none;
+    background-image: url('{{ site.baseurl }}/img/mmpaper.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
