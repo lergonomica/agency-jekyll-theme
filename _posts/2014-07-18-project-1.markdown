@@ -1,15 +1,16 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Appartamento per Strutture Riabilitative nel Lazio e Abruzzo
+subtitle: Strutture
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: progetto1.png
+thumbnail: progetto1.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+client: Lazio
+category: Strutture riabilitative
+description: Il progetto riguarda un appartamento per la valutazione ed il trattamento riabilitativo delle attività di vita quotidiana in Terapia Occupazionale.
+Particolarmente rilevante è il riferimento all’ambiente “uniforme” o “standard” – contenuto nell’ICF - necessario a valutare e quantificare la capacità di un individuo di eseguire un compito o un’azione nell’ambito dell’ambiente domestico. L’ICF fornisce due qualificatori significativi per codificare la componente Attività e Partecipazione: il qualificatore performance ed il qualificatore capacità.
 
 ---
