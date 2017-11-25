@@ -668,6 +668,14 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#services {
+/*    
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-color: #{{ site.data.template.color.navbar }};;
+}
+
 section#contact {
 /*    
     background-image: url('{{ site.baseurl }}/img/map-image.png');
