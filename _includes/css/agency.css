@@ -369,10 +369,6 @@ section h3.section-subheading {
 section#portfolio {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/mmpaper.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 #portfolio .portfolio-item {
