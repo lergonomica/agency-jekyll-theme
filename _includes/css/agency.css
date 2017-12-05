@@ -751,6 +751,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #{{ site.data.template.color.navbar }};
 }
 
 footer span.copyright {
