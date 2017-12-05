@@ -1,5 +1,5 @@
 ---
-title: Strutture Riabilitative
+title: Appartamento per Strutture Riabilitative
 subtitle: Strutture
 layout: default
 modal-id: 1
